@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="64" viewBox="0 0 1366 64">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_261" data-name="Rectangle 261" width="1366" height="64" transform="translate(0 2029)" fill="#fff"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.635" r="1.815" gradientTransform="translate(0.362 0.46) scale(0.275)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f0f0ed"/>
+    </radialGradient>
+  </defs>
+  <g id="Mask_Group_22" data-name="Mask Group 22" transform="translate(0 -2029)" clip-path="url(#clip-path)">
+    <path id="wave_bg" d="M0,.653S83.118,47.271,365.6,42.991s450.531-58.526,730-58.2S1448,.653,1448,.653V383.668H0Z" transform="translate(-57 2046.332)" fill="url(#radial-gradient)"/>
+  </g>
+</svg>
