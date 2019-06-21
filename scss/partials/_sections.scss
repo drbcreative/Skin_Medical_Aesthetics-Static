@@ -17,15 +17,8 @@ section {
 /* HERO SECTION */
 /* -------------------------------------------------------------------------- */
 .hero {
-  .slide {
-    background: $color-main;
-    padding: 40px 20px;
-    height: 50vh;
-
-    .containerish {
-      display: grid;
-    }
-  }
+  background: url('../../img/video-placeholder@2x.jpg') center / cover;
+  height: 80vh;
 }
 
 /* -------------------------------------------------------------------------- */

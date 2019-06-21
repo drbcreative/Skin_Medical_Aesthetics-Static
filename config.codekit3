@@ -711,7 +711,7 @@
 		"oAP": "/img/video-placeholder.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/video-placeholder@2x.jpg": {
@@ -722,7 +722,7 @@
 		"oAP": "/img/video-placeholder@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/index.html": {
