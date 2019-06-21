@@ -377,6 +377,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/header-top-bg.png": {
+		"ft": 32768,
+		"iS": 3312,
+		"oA": 0,
+		"oAP": "/img/header-top-bg.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/hydrafacial-img.jpg": {
 		"ft": 16384,
 		"iS": 87271,
