@@ -71,6 +71,26 @@
 
   /* HERO ******************************************************************* */
   /* COOLSCULPTING ********************************************************** */
+  .coolsculpting {
+    background: url('../../img/cool-sculpting-bg@2x.jpg') center / cover;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    .containerish {
+      display: grid;
+      align-items: center;
+      padding: 0 40px;
+
+      .content-wrapper {}
+
+      .coolsculpting-girl {
+        display: none;
+      }
+    }
+  }
+
   /* SEARCH ***************************************************************** */
   /* ABOUT US *************************************************************** */
   /* NEWSLETTER ************************************************************* */
@@ -120,6 +140,33 @@
 
   /* HERO ******************************************************************* */
   /* COOLSCULPTING ********************************************************** */
+  .coolsculpting {
+    background: url('../../img/cool-sculpting-bg@2x.jpg') center / cover;
+    height: 1000;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      align-items: center;
+      padding: 0 40px;
+
+      .content-wrapper {}
+
+      .coolsculpting-girl {
+        display: block;
+        position: relative;
+        bottom: -25px;
+        right: 0;
+        height: 800px;
+        width: auto;
+        z-index: 30;
+      }
+    }
+  }
+
   /* SEARCH ***************************************************************** */
   /* ABOUT US *************************************************************** */
   /* NEWSLETTER ************************************************************* */
@@ -216,7 +263,41 @@
   }
 
   /* HERO ******************************************************************* */
+  .hero {
+    background: url('../../img/video-placeholder@2x.jpg') center / cover;
+    height: 615px;
+    margin-top: 75px;
+  }
+
   /* COOLSCULPTING ********************************************************** */
+  .coolsculpting {
+    background: url('../../img/cool-sculpting-bg@2x.jpg') center / cover;
+    height: 1000px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      padding: 0 40px;
+
+      .content-wrapper {}
+
+      .coolsculpting-girl {
+        display: block;
+        position: relative;
+        // bottom: -25px;
+        // right: 0;
+        height: 950px;
+        width: auto;
+        z-index: 30;
+        justify-self: center;
+      }
+    }
+  }
+
   /* SEARCH ***************************************************************** */
   /* ABOUT US *************************************************************** */
   /* NEWSLETTER ************************************************************* */

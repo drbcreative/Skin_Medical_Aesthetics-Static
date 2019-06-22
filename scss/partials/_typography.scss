@@ -45,6 +45,20 @@ h2 {
   &.is-italic {
     font-style: italic;
   }
+
+  &.has-before {
+    position: relative;
+
+    &::before {
+      content: url('../../img/colon.png');
+      position: relative;
+      left: 0;
+      top: 0;
+      vertical-align: middle;
+      margin-right: .3rem;
+      padding-bottom: .6rem;
+    }
+  }
 }
 
 h3 {

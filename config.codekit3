@@ -147,6 +147,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/colon.png": {
+		"ft": 32768,
+		"iS": 284,
+		"oA": 0,
+		"oAP": "/img/colon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/colon@2x.png": {
+		"ft": 32768,
+		"iS": 441,
+		"oA": 0,
+		"oAP": "/img/colon@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/cool-sculpting-bg.jpg": {
 		"ft": 16384,
 		"iS": 26286,
@@ -208,8 +230,8 @@
 		"oA": 0,
 		"oAP": "/img/coolsculpting-girl@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},

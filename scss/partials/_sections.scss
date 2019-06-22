@@ -24,6 +24,42 @@ section {
 /* -------------------------------------------------------------------------- */
 /* COOLSCULPTING SECTION */
 /* -------------------------------------------------------------------------- */
+.coolsculpting {
+  background: url('../../img/cool-sculpting-bg@2x.jpg') center / cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  .section-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .section-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    opacity: .2;
+  }
+
+  .containerish {
+    display: grid;
+    align-items: center;
+    padding: 0 20px;
+
+    .content-wrapper {}
+
+    .coolsculpting-girl {
+      display: none;
+    }
+  }
+}
 
 /* -------------------------------------------------------------------------- */
 /* SEARCH SECTION */
