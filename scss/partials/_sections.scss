@@ -91,6 +91,46 @@ section {
 /* -------------------------------------------------------------------------- */
 /* ABOUT US */
 /* -------------------------------------------------------------------------- */
+.about-main {
+  padding: 40px 20px;
+  background: url('../../img/aboutus-bg@2x.jpg') center bottom / cover;
+
+  .containerish {
+    display: grid;
+  }
+}
+
+.about-staff {
+  background-color: #f0f1ec;
+  padding: 40px 20px;
+
+  .containerish {
+    display: grid;
+    grid-gap: 1rem;
+
+    .staff {
+      text-align: center;
+
+      img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+      }
+
+      .staff-header {
+        font-family: $font-secondary;
+        font-size: 22px;
+        line-height: 22px;
+        font-weight: 700;
+        margin-bottom: 1rem !important;
+      }
+
+      .body-copy {
+        margin: 0 !important;
+      }
+    }
+  }
+}
 
 /* -------------------------------------------------------------------------- */
 /* NEWSLETTER SECTION */
