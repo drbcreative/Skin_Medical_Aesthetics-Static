@@ -213,6 +213,26 @@
   }
 
   /* EVENT ****************************************************************** */
+  .event {
+    padding: 40px 20px;
+
+    .event-wrapper {
+      background: $color-extra-light;
+      width: 95%;
+      max-width: 1200px;
+      margin: 0 auto;
+      border-radius: 78px;
+      padding: 2rem;
+    }
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 75%;
+      justify-content: center;
+      grid-gap: 1rem;
+    }
+  }
+
   /* INSTALIFT-EMSCULPT ***************************************************** */
   /* CONSULTATION *********************************************************** */
   /* FOOTER ***************************************************************** */
@@ -490,6 +510,26 @@
   }
 
   /* EVENT ****************************************************************** */
+  .event {
+    padding: 40px 20px;
+
+    .event-wrapper {
+      background: $color-extra-light;
+      width: 95%;
+      max-width: 1200px;
+      margin: 0 auto;
+      border-radius: 78px;
+      padding: 2rem;
+    }
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+      justify-content: center;
+      grid-gap: 2rem;
+    }
+  }
+
   /* INSTALIFT-EMSCULPT ***************************************************** */
   /* CONSULTATION *********************************************************** */
   /* FOOTER ***************************************************************** */
@@ -766,6 +806,36 @@
   }
 
   /* EVENT ****************************************************************** */
+  .event {
+    padding: 40px 20px;
+
+    .event-wrapper {
+      background: $color-extra-light;
+      width: 95%;
+      max-width: 1200px;
+      margin: 0 auto;
+      border-radius: 78px;
+      padding: 2rem;
+      position: relative;
+
+      .date-marker {
+        width: 100px;
+        height: 100px;
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 25px;
+      }
+    }
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+      justify-content: center;
+      grid-gap: 2rem;
+    }
+  }
+
   /* INSTALIFT-EMSCULPT ***************************************************** */
   /* CONSULTATION *********************************************************** */
   /* FOOTER ***************************************************************** */
@@ -791,6 +861,10 @@
   /* BOTOX-FILLERS ********************************************************** */
   /* HYDRAFACIAL ************************************************************ */
   /* EVENT ****************************************************************** */
+  .event {
+    padding: 60px 20px;
+  }
+
   /* INSTALIFT-EMSCULPT ***************************************************** */
   /* CONSULTATION *********************************************************** */
   /* FOOTER ***************************************************************** */

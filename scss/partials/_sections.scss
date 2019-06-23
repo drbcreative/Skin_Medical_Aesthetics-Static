@@ -211,6 +211,42 @@ section {
 /* -------------------------------------------------------------------------- */
 /* EVENT */
 /* -------------------------------------------------------------------------- */
+.event {
+  padding: 40px 20px;
+
+  .event-wrapper {
+    background: $color-extra-light;
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 78px;
+    padding: 2rem;
+    position: relative;
+  }
+
+  .date-marker {
+    width: 100px;
+    height: 100px;
+    display: none;
+  }
+
+  .containerish {
+    display: grid;
+    align-items: center;
+    grid-gap: 1rem;
+
+    img {
+      border-radius: 20px;
+    }
+
+    .section-info {
+
+      p {
+        max-width: 500px;
+      }
+    }
+  }
+}
 
 /* -------------------------------------------------------------------------- */
 /* INSTALIFT - EMSULPT */
