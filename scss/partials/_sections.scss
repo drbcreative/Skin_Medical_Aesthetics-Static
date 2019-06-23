@@ -41,7 +41,7 @@ section {
 
   .section-bottom {
     position: absolute;
-    bottom: 0;
+    bottom: -5px;
     left: 0;
     width: 100%;
     height: auto;
@@ -65,14 +65,14 @@ section {
 /* SEARCH SECTION */
 /* -------------------------------------------------------------------------- */
 .search {
-  background: $color-white;
+  background: $color-extra-light;
   padding: 40px 20px;
 
   .containerish {
     display: grid;
 
     .form-control {
-      border-radius: 0;
+      border-radius: 50px;
       margin-bottom: 0.5rem;
     }
 
