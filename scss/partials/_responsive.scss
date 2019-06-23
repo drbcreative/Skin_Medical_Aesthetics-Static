@@ -168,16 +168,25 @@
   /* COOLSCULPTING ********************************************************** */
   .coolsculpting {
     background: url('../../img/cool-sculpting-bg@2x.jpg') center / cover;
-    height: 1000;
+    height: 90vh;
     position: relative;
     display: flex;
     align-items: center;
+
+    .section-bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+      opacity: .05;
+    }
 
     .containerish {
       display: grid;
       grid-template-columns: 1.5fr 1fr;
       align-items: center;
-      padding: 0 40px;
+      // padding: 0 40px;
 
       .content-wrapper {}
 
@@ -186,7 +195,7 @@
         position: relative;
         bottom: -25px;
         right: 0;
-        height: 800px;
+        height: 90vh;
         width: auto;
         z-index: 30;
       }
@@ -324,7 +333,7 @@
   /* COOLSCULPTING ********************************************************** */
   .coolsculpting {
     background: url('../../img/cool-sculpting-bg@2x.jpg') center / cover;
-    height: 1000px;
+    // height: 1000px;
     position: relative;
     display: flex;
     align-items: center;
@@ -333,7 +342,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       align-items: center;
-      padding: 0 40px;
+      // padding: 0 40px;
 
       .content-wrapper {}
 
@@ -342,7 +351,7 @@
         position: relative;
         // bottom: -25px;
         // right: 0;
-        height: 950px;
+        // height: 950px;
         width: auto;
         z-index: 30;
         justify-self: center;
@@ -368,6 +377,12 @@
 
   /* TOPBAR ***************************************************************** */
   /* HERO ******************************************************************* */
+  .hero {
+    background: url('../../img/video-placeholder@2x.jpg') center / cover;
+    height: 900px;
+    margin-top: 75px;
+  }
+
   /* COOLSCULPTING ********************************************************** */
   /* SEARCH ***************************************************************** */
   /* ABOUT US *************************************************************** */
@@ -384,9 +399,16 @@
 /* SUPER LARGE BREAKPOINT (IMAC STATUS 1900px and up) */
 /* -------------------------------------------------------------------------- */
 @media screen and (min-width: 1900px) {
+
   /* TOPBAR ***************************************************************** */
   /* HERO ******************************************************************* */
   /* COOLSCULPTING ********************************************************** */
+  .coolsculpting {
+    .section-bottom {
+      opacity: .05;
+    }
+  }
+
   /* SEARCH ***************************************************************** */
   /* ABOUT US *************************************************************** */
   /* NEWSLETTER ************************************************************* */
