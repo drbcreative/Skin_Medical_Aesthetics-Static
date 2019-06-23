@@ -169,6 +169,21 @@ section {
 /* BOTOX AND FILLERS SECTION */
 /* -------------------------------------------------------------------------- */
 
+.botox-injectables {
+  min-height: 300px;
+  background-color: $color-main;
+  padding: 40px 20px;
+
+  .containerish {
+    display: grid;
+    grid-gap: 1rem;
+
+    img {
+      border: 2px solid white;
+    }
+  }
+}
+
 /* -------------------------------------------------------------------------- */
 /* HYDRAFACIAL SECTION */
 /* -------------------------------------------------------------------------- */
