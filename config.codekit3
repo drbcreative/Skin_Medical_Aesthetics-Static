@@ -410,6 +410,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/header-top-bg2.png": {
+		"ft": 32768,
+		"iS": 2914,
+		"oA": 0,
+		"oAP": "/img/header-top-bg2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/hydrafacial-img.jpg": {
 		"ft": 16384,
 		"iS": 87271,
@@ -460,6 +471,17 @@
 		"oA": 0,
 		"oAP": "/img/injectables_bottom-bg.png",
 		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/injectables_bottom-bg2.png": {
+		"ft": 32768,
+		"iS": 13392,
+		"oA": 0,
+		"oAP": "/img/injectables_bottom-bg2.png",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -480,6 +502,17 @@
 		"iS": 6854,
 		"oA": 0,
 		"oAP": "/img/injectables_top-bg.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/injectables_top-bg2.png": {
+		"ft": 32768,
+		"iS": 5713,
+		"oA": 0,
+		"oAP": "/img/injectables_top-bg2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -678,8 +711,8 @@
 		"oA": 0,
 		"oAP": "/img/slider_bottom-wave.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},

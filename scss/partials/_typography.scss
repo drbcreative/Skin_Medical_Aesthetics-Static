@@ -53,10 +53,10 @@ h2 {
       content: url('../../img/colon.png');
       position: relative;
       left: 0;
-      top: 0;
-      vertical-align: middle;
+      top: -3px;
+      vertical-align: top;
       margin-right: .3rem;
-      padding-bottom: .6rem;
+      // padding-bottom: 1.5rem;
     }
   }
 }

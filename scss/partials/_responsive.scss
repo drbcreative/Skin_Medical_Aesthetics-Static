@@ -194,6 +194,24 @@
   }
 
   /* HYDRAFACIAL ************************************************************ */
+  .hydrafacial-hero {
+    height: 50vh;
+  }
+
+  .hydrafacial-info {
+    padding: 40px 20px;
+
+    .containerish {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      p {
+        max-width: 980px;
+      }
+    }
+  }
+
   /* EVENT ****************************************************************** */
   /* INSTALIFT-EMSCULPT ***************************************************** */
   /* CONSULTATION *********************************************************** */
@@ -218,7 +236,6 @@
   /* TOPBAR ***************************************************************** */
   /* NAVBAR ***************************************************************** */
   .navbar-wrapper {
-    background: url('../../img/header-top-bg.png') center top / cover;
     position: relative;
     overflow: visible;
     min-height: 75px;
@@ -449,6 +466,29 @@
   }
 
   /* HYDRAFACIAL ************************************************************ */
+  .hydrafacial-hero {
+    height: 60vh;
+    overflow: hidden;
+
+    img {
+      top: -20px;
+    }
+  }
+
+  .hydrafacial-info {
+    padding: 40px 20px;
+
+    .containerish {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      p {
+        max-width: 980px;
+      }
+    }
+  }
+
   /* EVENT ****************************************************************** */
   /* INSTALIFT-EMSCULPT ***************************************************** */
   /* CONSULTATION *********************************************************** */
@@ -702,6 +742,29 @@
   }
 
   /* HYDRAFACIAL ************************************************************ */
+  .hydrafacial-hero {
+    height: 80vh;
+    overflow: hidden;
+
+    img {
+      top: -20px;
+    }
+  }
+
+  .hydrafacial-info {
+    padding: 60px 20px;
+
+    .containerish {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      p {
+        max-width: 980px;
+      }
+    }
+  }
+
   /* EVENT ****************************************************************** */
   /* INSTALIFT-EMSCULPT ***************************************************** */
   /* CONSULTATION *********************************************************** */
@@ -754,6 +817,29 @@
   /* NEWSLETTER ************************************************************* */
   /* BOTOX-FILLERS ********************************************************** */
   /* HYDRAFACIAL ************************************************************ */
+  .hydrafacial-hero {
+    height: 90vh;
+    overflow: hidden;
+
+    img {
+      top: -20px;
+    }
+  }
+
+  .hydrafacial-info {
+    padding: 40px 20px;
+
+    .containerish {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      p {
+        max-width: 980px;
+      }
+    }
+  }
+
   /* EVENT ****************************************************************** */
   /* INSTALIFT-EMSCULPT ***************************************************** */
   /* CONSULTATION *********************************************************** */
