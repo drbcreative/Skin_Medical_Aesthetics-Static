@@ -136,7 +136,7 @@ section {
 /* NEWSLETTER SECTION */
 /* -------------------------------------------------------------------------- */
 .newsletter {
-  background: $color-dark-accent;
+  background: url('../../img/newsletter-bg@2x.jpg') center / cover;
   min-height: 200px;
   align-items: center;
 
@@ -156,7 +156,7 @@ section {
 
     .form-control {
       margin-bottom: 0.5rem;
-      border-radius: 0;
+      border-radius: 50px;
     }
 
     .form-control:last-child {
