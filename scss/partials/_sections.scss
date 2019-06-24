@@ -251,6 +251,26 @@ section {
 /* -------------------------------------------------------------------------- */
 /* INSTALIFT - EMSULPT */
 /* -------------------------------------------------------------------------- */
+.instalift-emsculpt {
+  background: url('../../img/instalift-emsculpt-bg@2x.jpg') center / cover;
+  min-height: 80vh;
+  padding: 40px 20px;
+  position: relative;
+
+  .containerish {
+    display: grid;
+    grid-gap: 1rem;
+  }
+
+  #instalift,
+  #emsculpt {
+    position: relative;
+  }
+
+  #instalift {
+    margin-bottom: 2rem;
+  }
+}
 
 /* -------------------------------------------------------------------------- */
 /* CONSULTATION SECTION */
