@@ -83,7 +83,6 @@
       align-items: center;
       padding: 0 40px;
 
-      .content-wrapper {}
 
       .coolsculpting-girl {
         display: none;
@@ -277,6 +276,75 @@
   }
 
   /* FOOTER ***************************************************************** */
+  .footer1 {
+    min-height: 300px;
+    padding: 40px 20px;
+
+    .containerish {
+      width: 95%;
+      max-width: 1200px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 2rem;
+      grid-row-gap: 4rem;
+
+      .line {
+        height: 1px;
+        width: 60%;
+        background-color: $color-main;
+        margin: 1rem 0;
+        opacity: .44;
+      }
+
+      .col-one {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .col-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        img {
+          align-self: flex-start;
+          max-width: 170px;
+          margin-bottom: 1.5rem;
+        }
+
+        p {
+          align-self: flex-start;
+          text-align: left;
+        }
+      }
+
+      .col-three {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        p {
+          align-self: center;
+          text-align: center;
+        }
+      }
+
+      .col-four {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        p {
+          align-self: center;
+          text-align: center;
+        }
+      }
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -338,7 +406,6 @@
       align-items: center;
       // padding: 0 40px;
 
-      .content-wrapper {}
 
       .coolsculpting-girl {
         display: block;
@@ -616,6 +683,146 @@
 
   /* CONSULTATION *********************************************************** */
   /* FOOTER ***************************************************************** */
+  .footer1 {
+    min-height: 300px;
+    padding: 40px 20px;
+
+    .containerish {
+      width: 95%;
+      max-width: 1200px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-column-gap: 2rem;
+      grid-row-gap: 4rem;
+      align-items: start;
+
+      .line {
+        height: 1px;
+        width: 200px;
+        background-color: $color-main;
+        margin: 1rem 0;
+        opacity: .44;
+      }
+
+      .col-one {
+        img {
+          width: 100%;
+          height: auto;
+        }
+
+        display: none;
+      }
+
+      .footer-nav {
+        text-align: left;
+      }
+
+      .col-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        img {
+          align-self: flex-start;
+          max-width: 150px;
+          margin-bottom: 1.5rem;
+        }
+
+        p {
+          align-self: flex-start;
+          text-align: left;
+        }
+      }
+
+      .col-three {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        p {
+          align-self: center;
+          text-align: center;
+        }
+      }
+
+      .col-four {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        p {
+          align-self: center;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  /* footer 2 */
+  .footer2 {
+    background-color: $color-dark;
+    width: 100%;
+    padding: 1rem 30px;
+
+    .small-copy {
+      margin-bottom: 0;
+    }
+
+    .containerish {
+      max-width: 100%;
+      max-width: 1200px;
+      padding: 0 0.2rem;
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      align-items: center;
+
+      .foot-left {
+        display: flex;
+        align-items: center;
+
+        p {
+          display: inline-block;
+          padding: 0;
+          margin: 0;
+        }
+      }
+
+      .foot-right {
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      .social-link {
+        color: $color-white;
+        margin-right: 0.5rem;
+
+        &:hover {
+          text-decoration: none;
+          color: $color-main;
+        }
+      }
+
+      .social-link:last-child {
+        margin-right: 0;
+      }
+
+      .footer-link {
+        color: $color-white;
+        font-family: $font-primary;
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 300;
+        display: inline-block;
+
+        &:hover {
+          text-decoration: none;
+          color: $color-main;
+        }
+      }
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -723,7 +930,6 @@
       align-items: center;
       // padding: 0 40px;
 
-      .content-wrapper {}
 
       .coolsculpting-girl {
         display: block;
@@ -971,6 +1177,82 @@
   }
 
   /* FOOTER ***************************************************************** */
+  .footer1 {
+    min-height: 300px;
+    padding: 40px 20px;
+
+    .containerish {
+      width: 95%;
+      max-width: 1200px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-column-gap: 1rem;
+      grid-row-gap: 0;
+      align-items: center;
+
+      .line {
+        height: 1px;
+        width: 200px;
+        background-color: $color-main;
+        margin: 1rem 0;
+        opacity: .44;
+      }
+
+      .col-one {
+        img {
+          width: 100%;
+          height: auto;
+        }
+
+        display: initial;
+      }
+
+      .footer-nav {
+        text-align: left;
+      }
+
+      .col-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        img {
+          align-self: flex-start;
+          max-width: 150px;
+          margin-bottom: 1.5rem;
+        }
+
+        p {
+          align-self: flex-start;
+          text-align: left;
+        }
+      }
+
+      .col-three {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-self: flex-start;
+
+        p {
+          align-self: center;
+          text-align: center;
+        }
+      }
+
+      .col-four {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        p {
+          align-self: center;
+          text-align: center;
+        }
+      }
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -1000,6 +1282,82 @@
   /* INSTALIFT-EMSCULPT ***************************************************** */
   /* CONSULTATION *********************************************************** */
   /* FOOTER ***************************************************************** */
+  .footer1 {
+    min-height: 300px;
+    padding: 40px 20px;
+
+    .containerish {
+      width: 95%;
+      max-width: 1200px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-column-gap: 3rem;
+      grid-row-gap: 0;
+      align-items: center;
+
+      .line {
+        height: 1px;
+        width: 200px;
+        background-color: $color-main;
+        margin: 1rem 0;
+        opacity: .44;
+      }
+
+      .col-one {
+        img {
+          width: 100%;
+          height: auto;
+        }
+
+        display: initial;
+      }
+
+      .footer-nav {
+        text-align: left;
+      }
+
+      .col-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        img {
+          align-self: flex-start;
+          max-width: 150px;
+          margin-bottom: 1.5rem;
+        }
+
+        p {
+          align-self: flex-start;
+          text-align: left;
+        }
+      }
+
+      .col-three {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-self: flex-start;
+
+        p {
+          align-self: center;
+          text-align: center;
+        }
+      }
+
+      .col-four {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        p {
+          align-self: center;
+          text-align: center;
+        }
+      }
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
