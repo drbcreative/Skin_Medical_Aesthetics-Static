@@ -249,6 +249,33 @@
   }
 
   /* CONSULTATION *********************************************************** */
+  .appointments {
+    background: $color-dark;
+    height: 50vh;
+    padding: 60px 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    .form-control {
+      border-radius: 50px;
+    }
+
+    .form-group {
+      .form-control {
+        border-radius: 50px;
+      }
+    }
+
+    .section-bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      opacity: .04;
+      z-index: 1;
+    }
+  }
+
   /* FOOTER ***************************************************************** */
 }
 
@@ -939,6 +966,10 @@
 
 
   /* CONSULTATION *********************************************************** */
+  .appointments {
+    height: 620px;
+  }
+
   /* FOOTER ***************************************************************** */
 }
 

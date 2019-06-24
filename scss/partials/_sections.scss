@@ -275,3 +275,45 @@ section {
 /* -------------------------------------------------------------------------- */
 /* CONSULTATION SECTION */
 /* -------------------------------------------------------------------------- */
+.appointments {
+  background: $color-dark;
+  height: 100vh;
+  padding: 60px 20px;
+  position: relative;
+  z-index: -1;
+
+  .form-control,
+  button {
+    border-radius: 50px;
+    border: none;
+    height: 40px;
+  }
+
+
+  .section-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: .04;
+    z-index: 1;
+  }
+
+  .section-bottom-wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+  }
+
+  .containerish {
+    .container-fluid {
+      form {
+
+        input[name="time"],
+        input[name="day"] {
+          // background: $color-main;
+        }
+      }
+    }
+  }
+}
